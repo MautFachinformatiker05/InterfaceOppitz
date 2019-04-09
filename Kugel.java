@@ -5,7 +5,7 @@ public class Kugel extends GeoOb  implements Volumenberechnung{
 		radius=r;
 	}
 	public double getVolumen(){
-		return 4/3*Math.PI*radius*radius*radius;
+		return 4/3.*Math.PI*radius*radius*radius;
 	}
 
 }
